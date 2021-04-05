@@ -61,7 +61,7 @@
 
 ----------------
 1주차
-1. [인터넷 네트워크]()  
+1. [인터넷 네트워크](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/oneweek/HTTP_%20웹_기본_지식_1주차_정리.md)  
 2. [URI와 웹 브라우저 요청 흐름]()
 
 2주차
