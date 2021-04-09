@@ -20,9 +20,7 @@
 URI는 간단히 말한다면 리소스를 보여 줄 수 있도록 해주는 식별자이다.
 
 
-
-하지만 
-
+하지만
 
 
 필자는 학교에서 URI 를 배울때 항상 URL , URN 은 항상 같이 무엇인지 배웠다.
@@ -37,9 +35,7 @@ URI는 간단히 말한다면 리소스를 보여 줄 수 있도록 해주는 �
 
 그러면 URL 은 무엇이고 URN 은 무엇일까?
 
-![image-20210409224018190](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210409224018190.png)
-
-
+![image-20210409224018190](https://tva1.sinaimg.cn/large/008eGmZEgy1gpduskbrb7j31hc0u0dsh.jpg)
 
 **URL** 은 우리가 평소에 인터넷에 접속할때 흔히 사용하는 주소 형식이다.
 
