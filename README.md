@@ -62,7 +62,7 @@
 ----------------
 1주차
 1. [인터넷 네트워크](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/oneweek/HTTP_%20웹_기본_지식_챕터1.md)  
-2. [URI와 웹 브라우저 요청 흐름](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/oneweek/HTTP_%20웹_기본_지식_챕터2.md)
+2. [URI와 웹 브라우저 요청 흐름](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/oneweek/HTTP_웹_기본_지식_챕터2.md)
 
 2주차
 1. [HTTP 기본]()
