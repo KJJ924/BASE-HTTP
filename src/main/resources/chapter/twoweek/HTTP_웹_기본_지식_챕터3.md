@@ -1,4 +1,4 @@
-<img src="https://cdn.inflearn.com/public/files/courses/326277/4df75704-dd5d-403f-be3c-6860251d4326/326277-kor-b.jpg" alt="1" style="zoom: 50%;" />
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiejhlmqoj30lc0dwmzx.jpg" alt="1" style="zoom: 50%;" />
 
 [모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-웹-네트워크/dashboard) 을 듣고 정리한 내용이며 **모든 그림 예제는 해당 강의에서 가져온 내용입니다**.
 
@@ -36,7 +36,7 @@ HTTP의 역사
 
 
 
-![image-20210413194608356](https://tva1.sinaimg.cn/large/008eGmZEgy1gpib4ppuhxj30d00a9abr.jpg)
+![image-20210413194608356](https://tva1.sinaimg.cn/large/008eGmZEgy1gpiejr31mxj30d00a9ab5.jpg)
 
 크롬의 개발자 도구를 이용하여 현재 브라우저들이 어떠한 프로토콜을 사용하는지 알아 볼 수 있다.
 
@@ -58,11 +58,11 @@ HTTP의 역사
 
 클라이언트는 서버에 요청을 보내고 응답을 대기하고 서버가 요청에 대한 결과를 만들어서 응답하는 구조이다.
 
-![image-20210413195150959](https://tva1.sinaimg.cn/large/008eGmZEgy1gpibaltwxvj31920botda.jpg)
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiejvbdkyj31920boq3s.jpg" alt="image-20210413195150959" style="zoom:50%;" />
 
 그렇다면 이러한 구조를 가지면 어떠한 장점이 있을까?
 
-지금 보면 클라이언트와 서버는 독립적으로 분리되어있다. 
+지금 보면 클라이언트와 서버는 독립적으로 분리되어있다.
 
 클라이언트 측에서는 UI 의 결과만 필요하며 비지니스 로직은 서버가 처리하여 클라이언트에게 결과만 전달하게 되는 구조이다.
 
@@ -82,7 +82,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 상태를 저장하지 않음으로 계속해서 서버에 원하는 정보를 다시 넘겨줘야한다.
 
-![image-20210413201808288](https://tva1.sinaimg.cn/large/008eGmZEgy1gpic26xqpnj31hc0u0wsh.jpg)
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiek2wjmfj31hc0u0goi.jpg" alt="image-20210413201808288" style="zoom:50%;" />
 
 하지만 Stateless 상태를 가짐으로써 서버의 확장(스케일 아웃) 이 아주 쉽다.
 
@@ -90,7 +90,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 
 
-![image-20210413201748089](https://tva1.sinaimg.cn/large/008eGmZEgy1gpic282p9vj31hc0u0acz.jpg)
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiekezxcqj31hc0u041f.jpg" alt="image-20210413201748089" style="zoom:50%;" />
 
 만약 Stateful 상태를 가지고 있다면
 
@@ -106,7 +106,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 만약 연결성을 가지고있다면 클라이언트가 응답을 받았음에도 불구하고 연결이 끊어지지 않는다면
 
-해당 서버는 다른 클라이언트의 요청을 처리하지 못한다. 
+해당 서버는 다른 클라이언트의 요청을 처리하지 못한다.
 
 
 
@@ -124,7 +124,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 |                          HTTP 초기                           |            HTTP 지속 연결(Persistent Connections)            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![image-20210413203817693](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210413203817693.png) | ![image-20210413203847528](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210413203847528.png) |
+| ![image-20210413215110180](https://tva1.sinaimg.cn/large/008eGmZEgy1gpiequy3s6j30u60nydin.jpg) | ![image-20210413215137104](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210413215137104.png) |
 
 
 
@@ -132,7 +132,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 HTTP 메세지 의 구조는 다음과 같다.
 
-<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpidrp0qzqj30qw0meq8r.jpg" alt="image-20210413211723603" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpidrp0qzqj30qw0meq8r.jpg" alt="image-20210413211723603" style="zoom: 33%;" />
 
 전체적인 구조는 다음과 같은데 요청메세지와 응답메세지의 구조가 약간 다르다.
 
@@ -140,7 +140,7 @@ HTTP 메세지 의 구조는 다음과 같다.
 
 | HTTP 요청 메세지                                             | HTTP  응답 메세지                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20210413212333004](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210413212333004.png) | ![image-20210413212401904](/Users/kimjajan/Library/Application Support/typora-user-images/image-20210413212401904.png) |
+| <img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiem5kilfj30r007o77r.jpg" alt="image-20210413212333004" style="zoom:50%;" /> | <img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpiemiido0j30qm0dodl7.jpg" alt="image-20210413212401904" style="zoom:50%;" /> |
 
 다음과 같은 구조를 가지게 되는데 여기서 주의할점은 HTTP  요청에도 body 본문을 가질 수 있다.
 
@@ -148,11 +148,11 @@ HTTP 메세지 의 구조는 다음과 같다.
 
 ## 시작라인(start-line)
 
-- 요청(request-line) 
+- 요청(request-line)
 
   -  method (get,post,put 등)  request-target(요청대상 search?q=hello~~) HTTP-version 으로 구성된다.
 
-  
+
 
 - 응답(status-line)
 
