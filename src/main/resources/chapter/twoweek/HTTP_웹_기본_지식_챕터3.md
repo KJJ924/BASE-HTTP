@@ -132,7 +132,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 HTTP 메세지 의 구조는 다음과 같다.
 
-<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpidrp0qzqj30qw0meq8r.jpg" alt="image-20210413211723603" style="zoom: 10%;" />
+<img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpif06oo88j30qw0me764.jpg" alt="image-20210413211723603" style="zoom: 25%;" />
 
 전체적인 구조는 다음과 같은데 요청메세지와 응답메세지의 구조가 약간 다르다.
 
