@@ -124,7 +124,7 @@ Stateless 는 말그대로 상태를 보존하지 않는 다는 뜻이다.
 
 |                          HTTP 초기                           |            HTTP 지속 연결(Persistent Connections)            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![image-20210413215110180](https://tva1.sinaimg.cn/large/008eGmZEgy1gpiequy3s6j30u60nydin.jpg) | ![image-20210413215419149](https://tva1.sinaimg.cn/large/008eGmZEgy1gpieu0effqj30u60nydin.jpg) |
+| ![image-20210413215110180](https://tva1.sinaimg.cn/large/008eGmZEgy1gpiequy3s6j30u60nydin.jpg) | ![image-20210413221405426](https://tva1.sinaimg.cn/large/008eGmZEgy1gpifeln7bcj30uc0nkwkq.jpg) |
 
 
 
