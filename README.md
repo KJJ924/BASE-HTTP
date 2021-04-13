@@ -65,7 +65,7 @@
 2. [URI와 웹 브라우저 요청 흐름](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/oneweek/HTTP_웹_기본_지식_챕터2.md)
 
 2주차
-1. [HTTP 기본]()
+1. [HTTP 기본](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/twoweek/HTTP_웹_기본_지식_챕터3.md)
 2. [HTTP 메서드]()
 
 3주차
