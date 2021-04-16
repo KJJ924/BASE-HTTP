@@ -66,7 +66,7 @@
 
 2주차
 1. [HTTP 기본](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/twoweek/HTTP_웹_기본_지식_챕터3.md)
-2. [HTTP 메서드]()
+2. [HTTP 메서드](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/twoweek/HTTP_웹_기본_지식_챕터4.md)
 
 3주차
 1. [HTTP 메서드 활용]()
