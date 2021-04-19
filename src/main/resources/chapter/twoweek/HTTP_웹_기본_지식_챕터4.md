@@ -93,6 +93,56 @@ REST 구성은 다음과 같다.
        ![img](https://tva1.sinaimg.cn/large/008eGmZEgy1gpo9krpqksj30de0bmmxq.jpg)
 
 
+## HTTP 메서드 - PUT, PATCH, DELETE
+
+
+
+- PUT
+
+    1. 요청을 통해 새로운 리소스를 생성하거나 , 대상 리소스를 나타내는 <u>데이터를 대체한다</u>.
+
+    2. 멱등성을 보장한다.(결과를 대체한다. 따라서 같은 요청을 여러번 해도 죄종 결과는 같다.)
+
+    3. 만약 대상 리소스가 없어 새로운 리소스를 생성한 경우 서버에서는 클라이언트에게 201 응답을 제공해줘야 한다.
+
+    4. 대상 리소스를 나타내는 데이터가 있고 요청에 포함된 자료을 토대로 변경(수정) 이 되었다면 200 또는 204 응답을 제공한다.
+
+    5. 리소스에 변경이 일어남으로 Safe 하지 않음
+
+       <img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpp58fpu70j30oq0bd0ta.jpg" alt="REST API HTTP PUT Method Interaction" style="zoom:50%;" />
+
+- PATCH
+    1. 대상 리소스의 부분적인 수정을 할 때 사용한다.
+    2. 멱등성을 보장 할수도 있고 안 할수 있다.
+    3. 리소스에 변경이 일어남으로 Safe 하지 않음
+        1.  /boards/1/countup  조회수를 증가시키는 요청 n 번 호출할때 마다  조회수도 n 번 증가함 (멱등성 보장 하지않음)
+        2. /members/1/editname  대상 맴버의 이름을 변경하는 것은 여러번 호출해도 같음 (멱등성 보장)
+
+
+
+- DELETE
+
+    1. 대상 리소스를 삭제 할 때 사용한다.
+
+    2. 멱등성을 보장한다.(결과를 삭제함으로 같은 요청을 여러번 해도 삭제된 결과는 똑같다.)
+
+    3. 리소스에 변경이 일어남으로 Safe 하지 않음
+
+       <img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gpp5lpkn45j30oq0bd0t7.jpg" alt="REST API HTTP DELETE Method Interaction" style="zoom:50%;" />
+
+
+
+
+
+
+
+
+
+## 참고자료
+
+1. [모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-웹-네트워크/dashboard)
+2. [What Is REST API?](https://novicedeveloper.com/what-is-rest-api/)
+
 
 
 
