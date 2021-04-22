@@ -69,7 +69,7 @@
 2. [HTTP 메서드](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/twoweek/HTTP_웹_기본_지식_챕터4.md)
 
 3주차
-1. [HTTP 메서드 활용]()
+1. [HTTP 메서드 활용](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/threeweek/HTTP_웹_기본_지식_챕터5.md)
 2. [HTTP 상태코드]()
 
 4주차
