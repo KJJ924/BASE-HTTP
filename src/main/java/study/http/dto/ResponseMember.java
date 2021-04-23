@@ -13,4 +13,8 @@ public class ResponseMember {
     private String local;
     private Integer age;
 
+    public String resourceLocation(){
+        return "/members/"+no;
+    }
+
 }

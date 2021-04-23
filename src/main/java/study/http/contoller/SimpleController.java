@@ -37,7 +37,9 @@ public class SimpleController {
     @PostMapping
     public ResponseEntity<ResponseMember> save(@RequestBody RequestMember requestMember){
         ResponseMember member = memberService.save(requestMember);
-        return ResponseEntity.status(HttpStatus.CREATED).body(member);
+        return ResponseEntity.status(HttpStatus.CREATED)
+            .header("Location", member.resourceLocation())
+            .body(member);
     }
 
     @DeleteMapping("/{id}")

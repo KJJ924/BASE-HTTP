@@ -87,6 +87,7 @@ Content-Type: application/json
 <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gpsnlgp596j30qi0kq0um.jpg" alt="image-20210422183244277" style="zoom:50%;" />
 
 완벽한 포맷은 아니지만 이렇게 다음상대로 전이 시킬수 있는 URI 를 제공해준다면 어떠한 장점이 있을까?
+(현재는 본문(body)에 link 를 제공하고 있지만 본문이 아니라 header 영역에서 제공해도 됩니다)
 
 프론트엔드와 백엔드가 분리되어 있는경우 프론트엔드에서는 URI 를 제공해주지않는다면 응답결과의 no 필드의 값을 확인 후
 
