@@ -52,7 +52,7 @@ public class SimpleController {
 
 > *대부분 REST API 를 설계에 있어서 자원이 다음상태로 전이될 수 있는 LINK 들을 제공하지 않는다.*
 
-내용이 있다 해당 내용은 [HATEOS](https://en.wikipedia.org/wiki/HATEOAS) 라고 부른다.
+내용이 있다 해당 내용은 [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) 라고 부른다.
 
 즉 다음과 같은 상황이다.
 
