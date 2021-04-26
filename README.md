@@ -70,7 +70,7 @@
 
 3주차
 1. [HTTP 메서드 활용](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/threeweek/HTTP_웹_기본_지식_챕터5.md)
-2. [HTTP 상태코드]()
+2. [HTTP 상태코드](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/threeweek/HTTP_웹_기본_지식_챕터6.md)
 
 4주차
 1. [HTTP헤더 - 일반헤더]()

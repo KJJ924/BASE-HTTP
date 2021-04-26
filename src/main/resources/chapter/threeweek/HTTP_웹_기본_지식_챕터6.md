@@ -75,6 +75,7 @@ HTTP 응답 상태 코드는 다음과 같다.
   
 
 - **결과**
+  
   ![image-20210426231830192](https://tva1.sinaimg.cn/large/008i3skNly1gpxibswujfj30ct09t0t9.jpg)
 
   하지만 다음과 같이  리다이렉션이 되어 `GET /members/{no}` 으로 맵핑한 컨트롤러를 재 호출하여 응답을 해준다.
