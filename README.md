@@ -73,6 +73,6 @@
 2. [HTTP 상태코드](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/threeweek/HTTP_웹_기본_지식_챕터6.md)
 
 4주차
-1. [HTTP헤더 - 일반헤더]()
+1. [HTTP헤더 - 일반헤더](https://github.com/KJJ924/BASE-HTTP/blob/main/src/main/resources/chapter/fourweek/HTTP%20헤더%20-%20일반헤더.md)
 2. [HTTP헤더 - 캐시]()
 
